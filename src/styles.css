@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+nav {
+  background: burlywood;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+nav ul li a {
+  border: 1px solid salmon;
+  padding: 4px 10px;
+  background: yellowgreen;
+  text-transform: uppercase;
+}
+
+.reviews li {
+  list-style-type: decimal-leading-zero;
+}
+
+.reviews li:hover {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: min-content;
+
+  padding: 0 15px;
+  background: cornflowerblue;
+}
